@@ -99,3 +99,4 @@ From now on just sit back, enjoy the course and `git checkout THE_NEXT_COMMIT` f
 * use two names as input from the command line and let them great each other
 * store the names in variables and use them to make it less confusing
 * let one of the two count from 0 to 4
+* let one of them count from 0 to 19
