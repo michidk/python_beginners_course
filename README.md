@@ -94,3 +94,5 @@ From now on just sit back, enjoy the course and `git checkout THE_NEXT_COMMIT` f
 
   You are wearing a very nice hat today!
   ```
+
+### Stage 1

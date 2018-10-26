@@ -3,3 +3,5 @@ import sys
 
 
 print('Hello ' + sys.argv[1] + '!')
+print('')
+print('You are wearing a very nice hat today!')
