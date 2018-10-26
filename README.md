@@ -88,3 +88,9 @@ From now on just sit back, enjoy the course and `git checkout THE_NEXT_COMMIT` f
 ### Stage 0
 * make it say 'Hi YOURNAME!' only. No empty lines, no congratulations message
 * make it pick up your name from outside, such that you can type `python hello.py YOURNAME` or `python hello.py OTHERNAME`
+* add an empty line and make python make yourself a compliment. The output should be something like
+  ```
+  Hi Andy!
+
+  You are wearing a very nice hat today!
+  ```
