@@ -1,7 +1,6 @@
-# First import a library. It is code written by others to make your life easier
 import sys
 
 
-print('Hello ' + sys.argv[1] + '!')
-print('')
-print('You are wearing a very nice hat today!')
+print('An interesting conversation:')
+print(sys.argv[1] + ': Hello ' + sys.argv[2] + '!')
+print(sys.argv[2] + ': Hello ' + sys.argv[1] + '!')
