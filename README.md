@@ -105,3 +105,4 @@ From now on just sit back, enjoy the course and `git checkout THE_NEXT_COMMIT` f
 ### Stage 2
 * run the new file `calculus.py` and solve the riddles. Let python calculate!
 * count the money in your wallet and use it as input from the command line. Then calculate how many beers you can buy until it's all used up.
+* use the `sleep` command in the `time` library to wait 2 seconds before giving the answer
