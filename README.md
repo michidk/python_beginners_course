@@ -100,3 +100,4 @@ From now on just sit back, enjoy the course and `git checkout THE_NEXT_COMMIT` f
 * store the names in variables and use them to make it less confusing
 * let one of the two count from 0 to 4
 * let one of them count from 0 to 19
+* let one of them count until a number you specify on the command line
