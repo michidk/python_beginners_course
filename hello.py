@@ -1,6 +1,9 @@
 import sys
 
 
+girl = sys.argv[1]
+boy = sys.argv[2]
+
 print('An interesting conversation:')
-print(sys.argv[1] + ': Hello ' + sys.argv[2] + '!')
-print(sys.argv[2] + ': Hello ' + sys.argv[1] + '!')
+print(girl + ': Hello ' + boy + '!')
+print(boy + ': Hello ' + girl + '!')
