@@ -101,3 +101,6 @@ From now on just sit back, enjoy the course and `git checkout THE_NEXT_COMMIT` f
 * let one of the two count from 0 to 4
 * let one of them count from 0 to 19
 * let one of them count until a number you specify on the command line
+
+### Stage 2
+* run the new file `calculus.py` and solve the riddles. Let python calculate!
