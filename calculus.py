@@ -2,9 +2,15 @@ import sys
 
 
 print('Counting the numbers of beets I can still buy!')
+credit = int(sys.argv[1])
 
-amount = int(sys.argv[1])
-beer_costs = 2
-print('I have ' + str(amount) + ' Euro and the beers cost ' + str(beer_costs))
-beers = amount / beer_costs
-print('I can buy ' + str(beers) + ' beers!')
+
+def get_amount(money, price):
+    result = money / price
+    return str(int(result))
+
+
+print('I can buy:')
+print(' - ' + get_amount(credit, 1.5) + ' beers!')
+print(' - ' + get_amount(credit, 1.3) + ' spezis!')
+print(' - ' + get_amount(credit, 1.7) + ' weissbiers!')
