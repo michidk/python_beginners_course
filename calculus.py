@@ -1,7 +1,7 @@
 import sys
 
 
-print('Counting the numbers of beets I can still buy!')
+print('Counting the numbers of beers I can still buy!')
 
 amount = int(sys.argv[1])
 beer_costs = 2
