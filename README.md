@@ -60,7 +60,7 @@ First, we install python and git. Follow those steps:
 ### Download the source code
 Create a folder (for example on your desktop) and start a terminal in there. Then download all the code and its history with
 ```shell
-git clone git@github.com:andb0t/python_beginners_course.git  # this creates a new directory
+git clone https://github.com/andb0t/python_beginners_course  # this creates a new directory
 cd python_beginners_course  # this enters the directory in the terminal
 ```
 You have now everything you need to develop a little program!
