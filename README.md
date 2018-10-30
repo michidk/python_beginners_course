@@ -3,13 +3,15 @@ A collection of very basic steps into the python world
 
 
 ## What this is about (Info)
-The intention is to make the noobs familiar with the basic use of a version control system (`git`) and give them a kick-start into writing scripts (`python`) to automatize tasks.
+The intention is to make the noobs familiar with the basic use of a version control system (`git`) and give them a kick-start into writing scripts (`python`) to automatize tasks. This is a small definition in layman's terms:
+* `git`: is a program that lets several people collaborate on the same project. They can work in parallel and git takes care of integrating their work into the same project. It can even merge changes inside the same file by different people at different times! `git` makes a snapshot whenever somebody changes something and the collection of snapshots is the `git` history. You can switch at any time to different points in the past of different people's workstream and investigate, copy code, change stuff etc. Programs like `git` make modern software development possible. The history can be saved online in a repository, famous services for this are github.com and gitlab.com.
+* `python` is what this course is actually about. It's a programming language that reads almost like prose. It's very versatile and let's you start coding without much overhead. Believe me, every step below is super easy and straight forward compared with the steps necessary for most other languages.
 
 
 ## How to make it work (Setup)
 
 ### Discover the terminal
-A terminal is the direct way to communicate with a computer. To open one inside a directory do
+A terminal (or shell) is the direct way to communicate with a computer. To open one inside a directory do
 * Windows: shift+right click -> Open Powershell Window here
 * Linux: right click -> Open in Terminal
 * Mac: right click -> Open Terminal
@@ -43,19 +45,22 @@ First, we install python and git. Follow those steps:
   # Python 3.6.6  (that's not a command but a comment, to show you what answer to expect)
   ```
 * Mac:
-   * open a terminal and enter
-   ```shell
-   xcode-select --install
-   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-   brew doctor  # just to test if it's working
-   brew install python3
-   brew install git
-   ```
+   * download and install python3.6 for Mac
+   * in a terminal, type `git`, then follow the install instruction
    * That's it! Now use a terminal and enter
   ```shell
   python3 --version
   # Python 3.6.6  (that's not a command but a comment, to show you what answer to expect)
   ```
+Additionally, you need a good IDE (Integrated Development Environment), a text editor that knows the programming language and has nice colors and error checking. For a beginner I recommend [pycharm](https://www.jetbrains.com/pycharm/). Personally I'm a fan of [atom](https://atom.io/), but that's more general purpose and less "python".
+
+
+### Set up the IDE
+Python files are text files ending with `.py`. Your IDE will make it easier to write in them and execute and test them. Here are some more detailed instructions:
+* pycharm: [HELP FOR PROJECT SETUP WANTED]. Execute your python code by clicking on 'Run' in the IDE. Pycharm also offers you a shell to start the script by hand. It also offers git integration.
+* atom: just use it as text editor, execute all python code in the shell. There are a lot of extensions in atom that will help you once you've become more advanced.
+* IDLE: use it as text editor to open and edit your `*.py` files with it. Execute python code either in the shell or directly via 'Run' or 'F5' in an IDLE built-in window.
+
 
 ### Download the source code
 Create a folder (for example on your desktop) and start a terminal in there. Then download all the code and its history with
